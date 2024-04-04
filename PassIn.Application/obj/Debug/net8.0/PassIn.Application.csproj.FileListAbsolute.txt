@@ -17,3 +17,4 @@ C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Application\obj\Debug\
 C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Application\obj\Debug\net8.0\refint\PassIn.Application.dll
 C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Application\obj\Debug\net8.0\PassIn.Application.pdb
 C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Application\obj\Debug\net8.0\ref\PassIn.Application.dll
+C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Application\obj\Debug\net8.0\PassIn.Application.sourcelink.json

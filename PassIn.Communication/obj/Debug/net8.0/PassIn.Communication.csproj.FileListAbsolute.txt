@@ -9,3 +9,4 @@ C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Communication\obj\Debu
 C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Communication\obj\Debug\net8.0\refint\PassIn.Communication.dll
 C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Communication\obj\Debug\net8.0\PassIn.Communication.pdb
 C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Communication\obj\Debug\net8.0\ref\PassIn.Communication.dll
+C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Communication\obj\Debug\net8.0\PassIn.Communication.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PassIn.Communication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26e5c44c8e1b55366f9525a757c37dd0b8797343")]
 [assembly: System.Reflection.AssemblyProductAttribute("PassIn.Communication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PassIn.Communication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

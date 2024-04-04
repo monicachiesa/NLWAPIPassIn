@@ -10,3 +10,4 @@ C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Infrastructure\obj\Deb
 C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Infrastructure\obj\Debug\net8.0\PassIn.Infrastructure.pdb
 C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Infrastructure\obj\Debug\net8.0\ref\PassIn.Infrastructure.dll
 C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Infrastructure\obj\Debug\net8.0\PassIn.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\monic\OneDrive\Documentos\Projetos\PassIn\PassIn.Infrastructure\obj\Debug\net8.0\PassIn.Infrastructure.sourcelink.json

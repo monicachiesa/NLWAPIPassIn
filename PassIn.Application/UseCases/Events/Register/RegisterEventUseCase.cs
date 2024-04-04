@@ -1,5 +1,6 @@
 ﻿using PassIn.Communication.Requests;
 using PassIn.Communication.Responses;
+using PassIn.Exceptions;
 using PassIn.Infrastructure;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ namespace PassIn.Application.UseCases.Events.Register
 {
     public class RegisterEventUseCase
     {
-        public ResponseRegisterEventJson Execute(RequestEventJson request)
+        public ResponseRegisterJson Execute(RequestEventJson request)
         {
             Validate(request);
 
@@ -27,7 +28,7 @@ namespace PassIn.Application.UseCases.Events.Register
             dbContext.Events.Add(entity);
             dbContext.SaveChanges();
 
-            return new ResponseRegisterEventJson
+            return new ResponseRegisterJson
             {
                 Id = entity.Id
             };
@@ -37,17 +38,17 @@ namespace PassIn.Application.UseCases.Events.Register
         {
             if (request.MaximumAttendees <= 0)
             {
-                throw new ArgumentException("O máximo de participantes é inválido");
+                throw new ErrorOnValidationException("O máximo de participantes é inválido");
             }
 
             if (string.IsNullOrWhiteSpace(request.Title))
             {
-                throw new ArgumentException("Título não pode ser vazio");
+                throw new ErrorOnValidationException("Título não pode ser vazio");
             }
 
             if (string.IsNullOrWhiteSpace(request.Details))
             {
-                throw new ArgumentException("Detalhes não pode ser vazio");
+                throw new ErrorOnValidationException("Detalhes não pode ser vazio");
             }
         }
     }

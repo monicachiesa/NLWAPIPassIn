@@ -1,9 +1,13 @@
+using PassIn.Api.Filters;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter))); //adiciona o filtro de excessãp
+//não importa aonde no projeto ocorrer a excessão, vai vir automaticamente pra cá
 
 var app = builder.Build();
 
