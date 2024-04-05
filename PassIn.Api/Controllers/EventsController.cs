@@ -35,22 +35,6 @@ namespace PassIn.Api.Controllers
             var response = useCase.Execute(id);
 
             return Ok(response);
-        }
-
-        //registro em um evento
-        [HttpPost]
-        [Route("{eventId}/register")]
-        [ProducesResponseType(typeof(ResponseEventJson), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status404NotFound)]
-        [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
-        public IActionResult Register([FromBody] RequestRegisterEventJson request, [FromRoute] Guid eventId)
-        {
-            var useCase = new RegisterAteendeeEventUseCase();
-
-            var response = useCase.Execute(eventId, request);
-
-            return Created(string.Empty, response);
-
-        }
+        }       
     }
 }

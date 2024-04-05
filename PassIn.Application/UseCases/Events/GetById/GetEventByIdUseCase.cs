@@ -1,4 +1,5 @@
-﻿using PassIn.Communication.Responses;
+﻿using Microsoft.EntityFrameworkCore;
+using PassIn.Communication.Responses;
 using PassIn.Exceptions;
 using PassIn.Infrastructure;
 using System;
@@ -15,7 +16,10 @@ namespace PassIn.Application.UseCases.Events.GetById
         {
             var dbContext = new PassInDBContext();
 
-            var entity = dbContext.Events.Find(id); //pesquisa pela chave primária
+            var entity = dbContext.Events
+                .Include(ev => ev.Attendees)
+                .Where(ev => ev.Id == id)
+                .FirstOrDefault();
 
             if (entity is null)
             {
@@ -28,7 +32,7 @@ namespace PassIn.Application.UseCases.Events.GetById
                 Title = entity.Title,
                 Details = entity.Details,
                 MaximumAttendees = entity.Maximum_Attendees,
-                AttendeesAmount = -1
+                AttendeesAmount = entity.Attendees.Count()
             };
 
         }

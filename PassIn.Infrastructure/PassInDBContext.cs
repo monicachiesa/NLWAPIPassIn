@@ -10,8 +10,8 @@ namespace PassIn.Infrastructure
 {
     public class PassInDBContext : DbContext
     {
-        //tabela eventos no banco de dados
         public DbSet<Attendee> Attendees { get; set; }
+        public DbSet<CheckIn> CheckIns { get; set; }
         public DbSet<Event> Events { get; set; }
         //função que configura o contexto com a base de dados
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

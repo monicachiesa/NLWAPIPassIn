@@ -4,6 +4,7 @@ using PassIn.Communication.Requests;
 using PassIn.Communication.Responses;
 using PassIn.Exceptions;
 using PassIn.Infrastructure;
+using System.Data;
 using System.Net.Mail;
 
 namespace PassIn.Application.UseCases.Events.RegisterAttendee
@@ -39,9 +40,9 @@ namespace PassIn.Application.UseCases.Events.RegisterAttendee
 
         private void Validate(Guid eventId, RequestRegisterEventJson request)
         {
-            var eventExist = _dbContext.Events.Any(ev => ev.Id == eventId);
+            var eventEntity = _dbContext.Events.Find(eventId);
 
-            if (eventExist == false)
+            if (eventEntity is null)
             {
                 throw new NotFoundException("Não existe um evento com este id");
             }
@@ -61,7 +62,14 @@ namespace PassIn.Application.UseCases.Events.RegisterAttendee
 
             if (attendeeAlreadyRegistered)
             {
-                throw new ErrorOnValidationException("Você ja está inscrito neste evento");
+                throw new ConflictException("Você ja está inscrito neste evento");
+            }
+
+            var attendeesForEvent = _dbContext.Attendees.Count(a => a.Event_Id != eventId);
+
+            if(attendeesForEvent > eventEntity.Maximum_Attendees)
+            {
+                throw new ErrorOnValidationException("Não há mais vagas para este evento");
             }
         }
 

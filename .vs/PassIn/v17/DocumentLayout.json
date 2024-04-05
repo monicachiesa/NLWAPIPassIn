@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94C5FE2D-E225-46D7-BF74-65186270F5BC}|PassIn.Api\\PassIn.Api.csproj|c:\\users\\monic\\onedrive\\documentos\\projetos\\passin\\passin.api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94C5FE2D-E225-46D7-BF74-65186270F5BC}|PassIn.Api\\PassIn.Api.csproj|solutionrelative:passin.api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C98E9A70-91BD-45D2-A403-ED7AF882D3FF}|PassIn.Exceptions\\PassIn.Exceptions.csproj|c:\\users\\monic\\onedrive\\documentos\\projetos\\passin\\passin.exceptions\\passinexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C98E9A70-91BD-45D2-A403-ED7AF882D3FF}|PassIn.Exceptions\\PassIn.Exceptions.csproj|solutionrelative:passin.exceptions\\passinexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB83DC07-5A54-41D3-8B5C-C2BDD9119610}|PassIn.Application\\PassIn.Application.csproj|c:\\users\\monic\\onedrive\\documentos\\projetos\\passin\\passin.application\\usecases\\events\\registerattendee\\registerateendeeeventusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB83DC07-5A54-41D3-8B5C-C2BDD9119610}|PassIn.Application\\PassIn.Application.csproj|solutionrelative:passin.application\\usecases\\events\\registerattendee\\registerateendeeeventusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB83DC07-5A54-41D3-8B5C-C2BDD9119610}|PassIn.Application\\PassIn.Application.csproj|c:\\users\\monic\\onedrive\\documentos\\projetos\\passin\\passin.application\\usecases\\events\\register\\registereventusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB83DC07-5A54-41D3-8B5C-C2BDD9119610}|PassIn.Application\\PassIn.Application.csproj|solutionrelative:passin.application\\usecases\\events\\register\\registereventusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94C5FE2D-E225-46D7-BF74-65186270F5BC}|PassIn.Api\\PassIn.Api.csproj|c:\\users\\monic\\onedrive\\documentos\\projetos\\passin\\passin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94C5FE2D-E225-46D7-BF74-65186270F5BC}|PassIn.Api\\PassIn.Api.csproj|solutionrelative:passin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB83DC07-5A54-41D3-8B5C-C2BDD9119610}|PassIn.Application\\PassIn.Application.csproj|c:\\users\\monic\\onedrive\\documentos\\projetos\\passin\\passin.application\\usecases\\atteendees\\getallbyeventid\\getallattendeesbyeventidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB83DC07-5A54-41D3-8B5C-C2BDD9119610}|PassIn.Application\\PassIn.Application.csproj|solutionrelative:passin.application\\usecases\\atteendees\\getallbyeventid\\getallattendeesbyeventidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C5FE2D-E225-46D7-BF74-65186270F5BC}|PassIn.Api\\PassIn.Api.csproj|c:\\users\\monic\\onedrive\\documentos\\projetos\\passin\\passin.api\\controllers\\checkincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C5FE2D-E225-46D7-BF74-65186270F5BC}|PassIn.Api\\PassIn.Api.csproj|solutionrelative:passin.api\\controllers\\checkincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B5F645-0212-4E52-8310-3B8C574A80C4}|PassIn.Infrastructure\\PassIn.Infrastructure.csproj|c:\\users\\monic\\onedrive\\documentos\\projetos\\passin\\passin.infrastructure\\entities\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B5F645-0212-4E52-8310-3B8C574A80C4}|PassIn.Infrastructure\\PassIn.Infrastructure.csproj|solutionrelative:passin.infrastructure\\entities\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B5F645-0212-4E52-8310-3B8C574A80C4}|PassIn.Infrastructure\\PassIn.Infrastructure.csproj|c:\\users\\monic\\onedrive\\documentos\\projetos\\passin\\passin.infrastructure\\entities\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B5F645-0212-4E52-8310-3B8C574A80C4}|PassIn.Infrastructure\\PassIn.Infrastructure.csproj|solutionrelative:passin.infrastructure\\entities\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12B5F645-0212-4E52-8310-3B8C574A80C4}|PassIn.Infrastructure\\PassIn.Infrastructure.csproj|c:\\users\\monic\\onedrive\\documentos\\projetos\\passin\\passin.infrastructure\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,58 +34,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterAteendeeEventUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Application\\UseCases\\Events\\RegisterAttendee\\RegisterAteendeeEventUseCase.cs",
-              "RelativeDocumentMoniker": "PassIn.Application\\UseCases\\Events\\RegisterAttendee\\RegisterAteendeeEventUseCase.cs",
-              "ToolTip": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Application\\UseCases\\Events\\RegisterAttendee\\RegisterAteendeeEventUseCase.cs",
-              "RelativeToolTip": "PassIn.Application\\UseCases\\Events\\RegisterAttendee\\RegisterAteendeeEventUseCase.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T00:25:46.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Api\\Program.cs",
               "RelativeDocumentMoniker": "PassIn.Api\\Program.cs",
               "ToolTip": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Api\\Program.cs",
               "RelativeToolTip": "PassIn.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABRAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T00:09:19.275Z",
+              "WhenOpened": "2024-04-05T01:32:58.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RegisterEventUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Application\\UseCases\\Events\\Register\\RegisterEventUseCase.cs",
-              "RelativeDocumentMoniker": "PassIn.Application\\UseCases\\Events\\Register\\RegisterEventUseCase.cs",
-              "ToolTip": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Application\\UseCases\\Events\\Register\\RegisterEventUseCase.cs",
-              "RelativeToolTip": "PassIn.Application\\UseCases\\Events\\Register\\RegisterEventUseCase.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Title": "Attendee.cs",
+              "DocumentMoniker": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Infrastructure\\Entities\\Attendee.cs",
+              "RelativeDocumentMoniker": "PassIn.Infrastructure\\Entities\\Attendee.cs",
+              "ToolTip": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Infrastructure\\Entities\\Attendee.cs",
+              "RelativeToolTip": "PassIn.Infrastructure\\Entities\\Attendee.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T23:14:16.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Api\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "PassIn.Api\\Controllers\\EventsController.cs",
-              "ToolTip": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Api\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "PassIn.Api\\Controllers\\EventsController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAiwDEAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T00:04:00.096Z",
+              "WhenOpened": "2024-04-05T01:11:54.673Z",
               "EditorCaption": ""
             },
             {
@@ -96,21 +70,48 @@
               "RelativeDocumentMoniker": "PassIn.Infrastructure\\Entities\\Event.cs",
               "ToolTip": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Infrastructure\\Entities\\Event.cs",
               "RelativeToolTip": "PassIn.Infrastructure\\Entities\\Event.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAApwA0AAAA4AAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T23:52:19.032Z"
+              "WhenOpened": "2024-04-05T01:11:46.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CheckIn.cs",
+              "DocumentMoniker": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Infrastructure\\Entities\\CheckIn.cs",
+              "RelativeDocumentMoniker": "PassIn.Infrastructure\\Entities\\CheckIn.cs",
+              "ToolTip": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Infrastructure\\Entities\\CheckIn.cs",
+              "RelativeToolTip": "PassIn.Infrastructure\\Entities\\CheckIn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T00:59:32.581Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PassInException.cs",
-              "DocumentMoniker": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Exceptions\\PassInException.cs",
-              "RelativeDocumentMoniker": "PassIn.Exceptions\\PassInException.cs",
-              "ToolTip": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Exceptions\\PassInException.cs",
-              "RelativeToolTip": "PassIn.Exceptions\\PassInException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAMAAAA",
+              "Title": "GetAllAttendeesByEventIdUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Application\\UseCases\\Atteendees\\GetAllByEventId\\GetAllAttendeesByEventIdUseCase.cs",
+              "RelativeDocumentMoniker": "PassIn.Application\\UseCases\\Atteendees\\GetAllByEventId\\GetAllAttendeesByEventIdUseCase.cs",
+              "ToolTip": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Application\\UseCases\\Atteendees\\GetAllByEventId\\GetAllAttendeesByEventIdUseCase.cs",
+              "RelativeToolTip": "PassIn.Application\\UseCases\\Atteendees\\GetAllByEventId\\GetAllAttendeesByEventIdUseCase.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAACgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T23:38:01.769Z",
+              "WhenOpened": "2024-04-05T00:50:11.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CheckInController.cs",
+              "DocumentMoniker": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Api\\Controllers\\CheckInController.cs",
+              "RelativeDocumentMoniker": "PassIn.Api\\Controllers\\CheckInController.cs",
+              "ToolTip": "C:\\Users\\monic\\OneDrive\\Documentos\\Projetos\\PassIn\\PassIn.Api\\Controllers\\CheckInController.cs",
+              "RelativeToolTip": "PassIn.Api\\Controllers\\CheckInController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T00:45:14.959Z",
               "EditorCaption": ""
             }
           ]
